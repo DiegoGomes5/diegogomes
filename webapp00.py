@@ -1,6 +1,9 @@
 # MEU PRIMEIRO WEB APP
 import streamlit as st
 from ACTlib01 import *
+ur1 = ""
+db = Ler_GooglePlanilha(Url)
+Escrever(db)
 
 Configurar_Pagina("Exemplo 1", 
                     "amplo", 
